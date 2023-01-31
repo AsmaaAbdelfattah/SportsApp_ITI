@@ -14,6 +14,8 @@
 		8CFDF2CF2989864E002DA2DF /* SportsApp_ITI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2CD2989864E002DA2DF /* SportsApp_ITI.xcdatamodeld */; };
 		8CFDF2D129898652002DA2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFDF2D029898652002DA2DF /* Assets.xcassets */; };
 		8CFDF2D429898652002DA2DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFDF2D229898652002DA2DF /* LaunchScreen.storyboard */; };
+		8CFDF2DF29899627002DA2DF /* FavouriteStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFDF2DE29899627002DA2DF /* FavouriteStoryboard.storyboard */; };
+		8CFDF2E1298996AE002DA2DF /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2E0298996AE002DA2DF /* FavouriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8CFDF2D029898652002DA2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CFDF2D329898652002DA2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CFDF2D529898652002DA2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFDF2DE29899627002DA2DF /* FavouriteStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FavouriteStoryboard.storyboard; sourceTree = "<group>"; };
+		8CFDF2E0298996AE002DA2DF /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,42 @@
 		8CFDF2C32989864E002DA2DF /* SportsApp_ITI */ = {
 			isa = PBXGroup;
 			children = (
-				8CFDF2C42989864E002DA2DF /* AppDelegate.swift */,
-				8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */,
-				8CFDF2C82989864E002DA2DF /* ViewController.swift */,
-				8CFDF2CA2989864E002DA2DF /* Main.storyboard */,
+				8CFDF2DD29899553002DA2DF /* ViewController */,
+				8CFDF2DC29899544002DA2DF /* ViewModel */,
+				8CFDF2DB29899533002DA2DF /* Model */,
 				8CFDF2D029898652002DA2DF /* Assets.xcassets */,
-				8CFDF2D229898652002DA2DF /* LaunchScreen.storyboard */,
 				8CFDF2D529898652002DA2DF /* Info.plist */,
 				8CFDF2CD2989864E002DA2DF /* SportsApp_ITI.xcdatamodeld */,
 			);
 			path = SportsApp_ITI;
+			sourceTree = "<group>";
+		};
+		8CFDF2DB29899533002DA2DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CFDF2DC29899544002DA2DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8CFDF2DD29899553002DA2DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */,
+				8CFDF2C42989864E002DA2DF /* AppDelegate.swift */,
+				8CFDF2C82989864E002DA2DF /* ViewController.swift */,
+				8CFDF2E0298996AE002DA2DF /* FavouriteViewController.swift */,
+				8CFDF2CA2989864E002DA2DF /* Main.storyboard */,
+				8CFDF2DE29899627002DA2DF /* FavouriteStoryboard.storyboard */,
+				8CFDF2D229898652002DA2DF /* LaunchScreen.storyboard */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +161,7 @@
 				8CFDF2D429898652002DA2DF /* LaunchScreen.storyboard in Resources */,
 				8CFDF2D129898652002DA2DF /* Assets.xcassets in Resources */,
 				8CFDF2CC2989864E002DA2DF /* Main.storyboard in Resources */,
+				8CFDF2DF29899627002DA2DF /* FavouriteStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +175,7 @@
 				8CFDF2C92989864E002DA2DF /* ViewController.swift in Sources */,
 				8CFDF2C52989864E002DA2DF /* AppDelegate.swift in Sources */,
 				8CFDF2C72989864E002DA2DF /* SceneDelegate.swift in Sources */,
+				8CFDF2E1298996AE002DA2DF /* FavouriteViewController.swift in Sources */,
 				8CFDF2CF2989864E002DA2DF /* SportsApp_ITI.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
