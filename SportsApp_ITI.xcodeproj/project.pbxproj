@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C08F7512989BA6C009473FC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08F74F2989BA6C009473FC /* TableViewCell.swift */; };
+		8C08F7522989BA6C009473FC /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C08F7502989BA6C009473FC /* TableViewCell.xib */; };
+		8C08F7542989C232009473FC /* FavTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08F7532989C232009473FC /* FavTableViewController.swift */; };
 		8CFDF2C52989864E002DA2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2C42989864E002DA2DF /* AppDelegate.swift */; };
 		8CFDF2C72989864E002DA2DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */; };
 		8CFDF2C92989864E002DA2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2C82989864E002DA2DF /* ViewController.swift */; };
@@ -15,13 +18,15 @@
 		8CFDF2D129898652002DA2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFDF2D029898652002DA2DF /* Assets.xcassets */; };
 		8CFDF2D429898652002DA2DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFDF2D229898652002DA2DF /* LaunchScreen.storyboard */; };
 		8CFDF2DF29899627002DA2DF /* FavouriteStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFDF2DE29899627002DA2DF /* FavouriteStoryboard.storyboard */; };
-		8CFDF2E1298996AE002DA2DF /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2E0298996AE002DA2DF /* FavouriteViewController.swift */; };
 		A180BEBF0507D47A709275F6 /* Pods_SportsApp_ITI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F7E089E93715FD4F1979C8 /* Pods_SportsApp_ITI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50F7E089E93715FD4F1979C8 /* Pods_SportsApp_ITI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportsApp_ITI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BABD7B11CD95C2A3AD80D53 /* Pods-SportsApp_ITI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsApp_ITI.release.xcconfig"; path = "Target Support Files/Pods-SportsApp_ITI/Pods-SportsApp_ITI.release.xcconfig"; sourceTree = "<group>"; };
+		8C08F74F2989BA6C009473FC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8C08F7502989BA6C009473FC /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		8C08F7532989C232009473FC /* FavTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavTableViewController.swift; sourceTree = "<group>"; };
 		8CFDF2C12989864E002DA2DF /* SportsApp_ITI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsApp_ITI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFDF2C42989864E002DA2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +37,6 @@
 		8CFDF2D329898652002DA2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CFDF2D529898652002DA2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CFDF2DE29899627002DA2DF /* FavouriteStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FavouriteStoryboard.storyboard; sourceTree = "<group>"; };
-		8CFDF2E0298996AE002DA2DF /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 		D30973B77AB5253BD9B3096E /* Pods-SportsApp_ITI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsApp_ITI.debug.xcconfig"; path = "Target Support Files/Pods-SportsApp_ITI/Pods-SportsApp_ITI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,10 +103,12 @@
 				8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */,
 				8CFDF2C42989864E002DA2DF /* AppDelegate.swift */,
 				8CFDF2C82989864E002DA2DF /* ViewController.swift */,
-				8CFDF2E0298996AE002DA2DF /* FavouriteViewController.swift */,
+				8C08F74F2989BA6C009473FC /* TableViewCell.swift */,
 				8CFDF2CA2989864E002DA2DF /* Main.storyboard */,
 				8CFDF2DE29899627002DA2DF /* FavouriteStoryboard.storyboard */,
+				8C08F7502989BA6C009473FC /* TableViewCell.xib */,
 				8CFDF2D229898652002DA2DF /* LaunchScreen.storyboard */,
+				8C08F7532989C232009473FC /* FavTableViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -113,7 +119,6 @@
 				D30973B77AB5253BD9B3096E /* Pods-SportsApp_ITI.debug.xcconfig */,
 				7BABD7B11CD95C2A3AD80D53 /* Pods-SportsApp_ITI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CFDF2D429898652002DA2DF /* LaunchScreen.storyboard in Resources */,
+				8C08F7522989BA6C009473FC /* TableViewCell.xib in Resources */,
 				8CFDF2D129898652002DA2DF /* Assets.xcassets in Resources */,
 				8CFDF2CC2989864E002DA2DF /* Main.storyboard in Resources */,
 				8CFDF2DF29899627002DA2DF /* FavouriteStoryboard.storyboard in Resources */,
@@ -243,8 +249,9 @@
 			files = (
 				8CFDF2C92989864E002DA2DF /* ViewController.swift in Sources */,
 				8CFDF2C52989864E002DA2DF /* AppDelegate.swift in Sources */,
+				8C08F7542989C232009473FC /* FavTableViewController.swift in Sources */,
 				8CFDF2C72989864E002DA2DF /* SceneDelegate.swift in Sources */,
-				8CFDF2E1298996AE002DA2DF /* FavouriteViewController.swift in Sources */,
+				8C08F7512989BA6C009473FC /* TableViewCell.swift in Sources */,
 				8CFDF2CF2989864E002DA2DF /* SportsApp_ITI.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
