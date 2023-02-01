@@ -10,6 +10,7 @@
 		8C08F7512989BA6C009473FC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08F74F2989BA6C009473FC /* TableViewCell.swift */; };
 		8C08F7522989BA6C009473FC /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C08F7502989BA6C009473FC /* TableViewCell.xib */; };
 		8C08F7542989C232009473FC /* FavTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08F7532989C232009473FC /* FavTableViewController.swift */; };
+		8CE1679B298AB80E005A5930 /* DetailsLeagueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1679A298AB80E005A5930 /* DetailsLeagueController.swift */; };
 		8CFDF2C52989864E002DA2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2C42989864E002DA2DF /* AppDelegate.swift */; };
 		8CFDF2C72989864E002DA2DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */; };
 		8CFDF2C92989864E002DA2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2C82989864E002DA2DF /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		8C08F74F2989BA6C009473FC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		8C08F7502989BA6C009473FC /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		8C08F7532989C232009473FC /* FavTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavTableViewController.swift; sourceTree = "<group>"; };
+		8CE1679A298AB80E005A5930 /* DetailsLeagueController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsLeagueController.swift; sourceTree = "<group>"; };
 		8CFDF2C12989864E002DA2DF /* SportsApp_ITI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsApp_ITI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFDF2C42989864E002DA2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				8C08F7502989BA6C009473FC /* TableViewCell.xib */,
 				8CFDF2D229898652002DA2DF /* LaunchScreen.storyboard */,
 				8C08F7532989C232009473FC /* FavTableViewController.swift */,
+				8CE1679A298AB80E005A5930 /* DetailsLeagueController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				8CFDF2C92989864E002DA2DF /* ViewController.swift in Sources */,
 				8CFDF2C52989864E002DA2DF /* AppDelegate.swift in Sources */,
 				8C08F7542989C232009473FC /* FavTableViewController.swift in Sources */,
+				8CE1679B298AB80E005A5930 /* DetailsLeagueController.swift in Sources */,
 				8CFDF2C72989864E002DA2DF /* SceneDelegate.swift in Sources */,
 				8C08F7512989BA6C009473FC /* TableViewCell.swift in Sources */,
 				8CFDF2CF2989864E002DA2DF /* SportsApp_ITI.xcdatamodeld in Sources */,

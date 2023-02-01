@@ -54,7 +54,7 @@ class FavTableViewController: UITableViewController {
     }
   
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50.0;//Choose your custom row height
+        return 90.0;//Choose your custom row height
     }
     /*
     // Override to support conditional editing of the table view.
@@ -64,7 +64,7 @@ class FavTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
@@ -74,7 +74,12 @@ class FavTableViewController: UITableViewController {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+   
+        let view = self.storyboard?.instantiateViewController(withIdentifier: "Details") as! DetailsLeagueController
+        view.modalPresentationStyle = .fullScreen
+        self.present(view , animated: true, completion: nil)
+    }
 
     /*
     // Override to support rearranging the table view.
