@@ -66,13 +66,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8CAB0904298C447D0052C672 /* helper */ = {
+		8CAB0904298C447D0052C672 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
 				8CFDF2C42989864E002DA2DF /* AppDelegate.swift */,
 				8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */,
 			);
-			path = helper;
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		8CAB0905298C44900052C672 /* Cells */ = {
@@ -109,7 +109,7 @@
 		8CFDF2C32989864E002DA2DF /* SportsApp_ITI */ = {
 			isa = PBXGroup;
 			children = (
-				8CAB0904298C447D0052C672 /* helper */,
+				8CAB0904298C447D0052C672 /* Helper */,
 				8CFDF2DD29899553002DA2DF /* ViewController */,
 				8CFDF2DC29899544002DA2DF /* ViewModel */,
 				8CFDF2DB29899533002DA2DF /* Model */,
