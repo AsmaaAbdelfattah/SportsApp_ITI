@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D91B801298BF99500FFBC58 /* LegeusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91B800298BF99500FFBC58 /* LegeusViewController.swift */; };
+		3D91B80F298C347000FFBC58 /* GIFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91B80E298C347000FFBC58 /* GIFViewController.swift */; };
+		3D91B811298C34CB00FFBC58 /* splash3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3D91B810298C34CB00FFBC58 /* splash3.gif */; };
+		3D9207C8298C4586002471C7 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9207C7298C4586002471C7 /* SportsViewController.swift */; };
+		3D96D7DD298BEB07000A1596 /* CustomCollectionViewCellForLegeus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D96D7DB298BEB07000A1596 /* CustomCollectionViewCellForLegeus.swift */; };
+		3D96D7DE298BEB07000A1596 /* CustomCollectionViewCellForLegeus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D96D7DC298BEB07000A1596 /* CustomCollectionViewCellForLegeus.xib */; };
 		8C08F7512989BA6C009473FC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08F74F2989BA6C009473FC /* TableViewCell.swift */; };
 		8C08F7522989BA6C009473FC /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C08F7502989BA6C009473FC /* TableViewCell.xib */; };
 		8C08F7542989C232009473FC /* FavTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08F7532989C232009473FC /* FavTableViewController.swift */; };
 		8CE1679B298AB80E005A5930 /* DetailsLeagueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1679A298AB80E005A5930 /* DetailsLeagueController.swift */; };
 		8CFDF2C52989864E002DA2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2C42989864E002DA2DF /* AppDelegate.swift */; };
 		8CFDF2C72989864E002DA2DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */; };
-		8CFDF2C92989864E002DA2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2C82989864E002DA2DF /* ViewController.swift */; };
 		8CFDF2CC2989864E002DA2DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFDF2CA2989864E002DA2DF /* Main.storyboard */; };
 		8CFDF2CF2989864E002DA2DF /* SportsApp_ITI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF2CD2989864E002DA2DF /* SportsApp_ITI.xcdatamodeld */; };
 		8CFDF2D129898652002DA2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFDF2D029898652002DA2DF /* Assets.xcassets */; };
@@ -23,6 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D91B800298BF99500FFBC58 /* LegeusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegeusViewController.swift; sourceTree = "<group>"; };
+		3D91B80E298C347000FFBC58 /* GIFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFViewController.swift; sourceTree = "<group>"; };
+		3D91B810298C34CB00FFBC58 /* splash3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash3.gif; sourceTree = "<group>"; };
+		3D9207C7298C4586002471C7 /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		3D96D7DB298BEB07000A1596 /* CustomCollectionViewCellForLegeus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCellForLegeus.swift; sourceTree = "<group>"; };
+		3D96D7DC298BEB07000A1596 /* CustomCollectionViewCellForLegeus.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCellForLegeus.xib; sourceTree = "<group>"; };
 		50F7E089E93715FD4F1979C8 /* Pods_SportsApp_ITI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportsApp_ITI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BABD7B11CD95C2A3AD80D53 /* Pods-SportsApp_ITI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsApp_ITI.release.xcconfig"; path = "Target Support Files/Pods-SportsApp_ITI/Pods-SportsApp_ITI.release.xcconfig"; sourceTree = "<group>"; };
 		8C08F74F2989BA6C009473FC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -32,7 +43,6 @@
 		8CFDF2C12989864E002DA2DF /* SportsApp_ITI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsApp_ITI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFDF2C42989864E002DA2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8CFDF2C82989864E002DA2DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CFDF2CB2989864E002DA2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CFDF2CE2989864E002DA2DF /* SportsApp_ITI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsApp_ITI.xcdatamodel; sourceTree = "<group>"; };
 		8CFDF2D029898652002DA2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +64,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D96D7D9298BE8FB000A1596 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C08F74F2989BA6C009473FC /* TableViewCell.swift */,
+				8CE1679A298AB80E005A5930 /* DetailsLeagueController.swift */,
+				8C08F7532989C232009473FC /* FavTableViewController.swift */,
+				3D91B800298BF99500FFBC58 /* LegeusViewController.swift */,
+				3D96D7DB298BEB07000A1596 /* CustomCollectionViewCellForLegeus.swift */,
+				3D91B80E298C347000FFBC58 /* GIFViewController.swift */,
+				3D9207C7298C4586002471C7 /* SportsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D96D7DA298BE918000A1596 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */,
+				8CFDF2C42989864E002DA2DF /* AppDelegate.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		8CFDF2B82989864E002DA2DF = {
 			isa = PBXGroup;
 			children = (
@@ -75,10 +108,12 @@
 		8CFDF2C32989864E002DA2DF /* SportsApp_ITI */ = {
 			isa = PBXGroup;
 			children = (
+				3D96D7DA298BE918000A1596 /* Helper */,
 				8CFDF2DD29899553002DA2DF /* ViewController */,
 				8CFDF2DC29899544002DA2DF /* ViewModel */,
 				8CFDF2DB29899533002DA2DF /* Model */,
 				8CFDF2D029898652002DA2DF /* Assets.xcassets */,
+				3D91B810298C34CB00FFBC58 /* splash3.gif */,
 				8CFDF2D529898652002DA2DF /* Info.plist */,
 				8CFDF2CD2989864E002DA2DF /* SportsApp_ITI.xcdatamodeld */,
 			);
@@ -102,16 +137,12 @@
 		8CFDF2DD29899553002DA2DF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */,
-				8CFDF2C42989864E002DA2DF /* AppDelegate.swift */,
-				8CFDF2C82989864E002DA2DF /* ViewController.swift */,
-				8C08F74F2989BA6C009473FC /* TableViewCell.swift */,
+				3D96D7D9298BE8FB000A1596 /* Controller */,
 				8CFDF2CA2989864E002DA2DF /* Main.storyboard */,
 				8CFDF2DE29899627002DA2DF /* FavouriteStoryboard.storyboard */,
 				8C08F7502989BA6C009473FC /* TableViewCell.xib */,
 				8CFDF2D229898652002DA2DF /* LaunchScreen.storyboard */,
-				8C08F7532989C232009473FC /* FavTableViewController.swift */,
-				8CE1679A298AB80E005A5930 /* DetailsLeagueController.swift */,
+				3D96D7DC298BEB07000A1596 /* CustomCollectionViewCellForLegeus.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -195,9 +226,11 @@
 			files = (
 				8CFDF2D429898652002DA2DF /* LaunchScreen.storyboard in Resources */,
 				8C08F7522989BA6C009473FC /* TableViewCell.xib in Resources */,
+				3D96D7DE298BEB07000A1596 /* CustomCollectionViewCellForLegeus.xib in Resources */,
 				8CFDF2D129898652002DA2DF /* Assets.xcassets in Resources */,
 				8CFDF2CC2989864E002DA2DF /* Main.storyboard in Resources */,
 				8CFDF2DF29899627002DA2DF /* FavouriteStoryboard.storyboard in Resources */,
+				3D91B811298C34CB00FFBC58 /* splash3.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CFDF2C92989864E002DA2DF /* ViewController.swift in Sources */,
+				3D96D7DD298BEB07000A1596 /* CustomCollectionViewCellForLegeus.swift in Sources */,
 				8CFDF2C52989864E002DA2DF /* AppDelegate.swift in Sources */,
 				8C08F7542989C232009473FC /* FavTableViewController.swift in Sources */,
+				3D91B801298BF99500FFBC58 /* LegeusViewController.swift in Sources */,
+				3D91B80F298C347000FFBC58 /* GIFViewController.swift in Sources */,
+				3D9207C8298C4586002471C7 /* SportsViewController.swift in Sources */,
 				8CE1679B298AB80E005A5930 /* DetailsLeagueController.swift in Sources */,
 				8CFDF2C72989864E002DA2DF /* SceneDelegate.swift in Sources */,
 				8C08F7512989BA6C009473FC /* TableViewCell.swift in Sources */,
