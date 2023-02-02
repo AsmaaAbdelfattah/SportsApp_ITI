@@ -14,8 +14,10 @@ class FavTableViewController: UITableViewController {
         super.viewDidLoad()
         let nib = UINib(nibName: "TableViewCell", bundle: nil)
               self.tableView.register(nib, forCellReuseIdentifier: "customCell")
+        
     }
 
+ 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -46,13 +48,32 @@ class FavTableViewController: UITableViewController {
         
         cell.YTIcon?.layer.borderColor = UIColor.white.cgColor
         cell.YTIcon?.layer.masksToBounds = false
+        
+        //Open Youtube
+    
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        cell.YTIcon.isUserInteractionEnabled = true
+        cell.YTIcon.addGestureRecognizer(tapGestureRecognizer)
         return cell
         
         
       
   
     }
-  
+    @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
+    {
+        let tappedImage = tapGestureRecognizer.view as! UIImageView
+
+        // Your action
+        let youtubeId = "SxTYjptEzZs"
+            var youtubeUrl = NSURL(string:"youtube://\(youtubeId)")!
+        if UIApplication.shared.canOpenURL(youtubeUrl as URL){
+            UIApplication.shared.openURL(youtubeUrl as URL)
+            } else{
+                    youtubeUrl = NSURL(string:"https://www.youtube.com/watch?v=Dtcqf9RbEDM\(youtubeId)")!
+                UIApplication.shared.openURL(youtubeUrl as URL)
+            }
+    }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 90.0;//Choose your custom row height
     }
@@ -75,7 +96,8 @@ class FavTableViewController: UITableViewController {
         }    
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-   
+     
+        
         let view = self.storyboard?.instantiateViewController(withIdentifier: "Details") as! DetailsLeagueController
         view.modalPresentationStyle = .fullScreen
         self.present(view , animated: true, completion: nil)
