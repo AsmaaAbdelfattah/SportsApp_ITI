@@ -76,6 +76,8 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< main
+		8CAB0904298C447D0052C672 /* Helper */ = {
 		3D96D7D9298BE8FB000A1596 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +98,31 @@
 				8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */,
 				8CFDF2C42989864E002DA2DF /* AppDelegate.swift */,
 			);
+			path = Cells;
+=======
+		3D96D7D9298BE8FB000A1596 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C08F74F2989BA6C009473FC /* TableViewCell.swift */,
+				8CE1679A298AB80E005A5930 /* DetailsLeagueController.swift */,
+				8C08F7532989C232009473FC /* FavTableViewController.swift */,
+				3D91B800298BF99500FFBC58 /* LegeusViewController.swift */,
+				3D96D7DB298BEB07000A1596 /* CustomCollectionViewCellForLegeus.swift */,
+				3D91B80E298C347000FFBC58 /* GIFViewController.swift */,
+				3D9207C7298C4586002471C7 /* SportsViewController.swift */,
+			);
+			path = Controller;
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		3D96D7DA298BE918000A1596 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8CFDF2C62989864E002DA2DF /* SceneDelegate.swift */,
+				8CFDF2C42989864E002DA2DF /* AppDelegate.swift */,
+			);
+			path = Helper;
+>>>>>>> create splash screen and create sports and legeus controllers
 			sourceTree = "<group>";
 		};
 		8CFDF2B82989864E002DA2DF = {
@@ -120,6 +146,11 @@
 		8CFDF2C32989864E002DA2DF /* SportsApp_ITI */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< main
+				8CAB0904298C447D0052C672 /* Helper */,
+=======
+				3D96D7DA298BE918000A1596 /* Helper */,
+>>>>>>> create splash screen and create sports and legeus controllers
 				3D96D7DA298BE918000A1596 /* Helper */,
 				8CFDF2DD29899553002DA2DF /* ViewController */,
 				8CFDF2DC29899544002DA2DF /* ViewModel */,
@@ -149,6 +180,13 @@
 		8CFDF2DD29899553002DA2DF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< main
+				8CAB0905298C44900052C672 /* Cells */,
+				8CFDF2C82989864E002DA2DF /* ViewController.swift */,
+				8C08F74F2989BA6C009473FC /* TableViewCell.swift */,
+=======
+				3D96D7D9298BE8FB000A1596 /* Controller */,
+>>>>>>> create splash screen and create sports and legeus controllers
 				3D96D7D9298BE8FB000A1596 /* Controller */,
 				8CFDF2CA2989864E002DA2DF /* Main.storyboard */,
 				8CFDF2DE29899627002DA2DF /* FavouriteStoryboard.storyboard */,
@@ -243,6 +281,12 @@
 				8CFDF2D129898652002DA2DF /* Assets.xcassets in Resources */,
 				8CFDF2CC2989864E002DA2DF /* Main.storyboard in Resources */,
 				8CFDF2DF29899627002DA2DF /* FavouriteStoryboard.storyboard in Resources */,
+<<<<<<< main
+				8CDE1419298C456B00D94B9D /* comCollectionViewCell.xib in Resources */,
+				8CDE141D298C493300D94B9D /* recCollectionViewCell.xib in Resources */,
+=======
+				3D91B811298C34CB00FFBC58 /* splash3.gif in Resources */,
+>>>>>>> create splash screen and create sports and legeus controllers
 				3D91B811298C34CB00FFBC58 /* splash3.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
