@@ -1,16 +1,20 @@
 PODS:
   - Kingfisher (7.5.0)
+  - SwiftyGif (5.4.4)
 
 DEPENDENCIES:
   - Kingfisher (~> 7.0)
+  - SwiftyGif (~> 5.4)
 
 SPEC REPOS:
   trunk:
     - Kingfisher
+    - SwiftyGif
 
 SPEC CHECKSUMS:
   Kingfisher: b9c2a4a4af2990a768445c277359b27bde287d71
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
 
-PODFILE CHECKSUM: 10f7b66d174bea42c7a4570a7b07144dbad77eba
+PODFILE CHECKSUM: 50521f434cd098f1078c33e82c3d691d20e6d72c
 
 COCOAPODS: 1.11.3
